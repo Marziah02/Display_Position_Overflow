@@ -1,0 +1,68 @@
+/* part-1 display hide */
+#part1{
+  margin-bottom: 40px;
+}
+#part1 #title h1{
+  text-align: center; 
+}
+/* here */
+#part1 #display_hide{
+  display: none;
+}
+/* part-1 */
+
+#second_title h1{
+  text-align: center;
+}
+
+/* part-2 & part-3 position */
+#mother{
+  width: 400px;
+  height: 400px;
+  background-color: #479292;
+  position: relative;
+  margin: auto; 
+  border: 1px solid;
+}
+#mother .m_title{
+  text-align: center;
+}
+#mother #part2{
+  width: 300px;
+  height: 300px;
+  background-color: #72BABA;
+  border: 1px solid;
+  margin: auto;
+}
+#part2 p{
+  text-align: center;
+}
+#mother #part3{
+  width: 200px;
+  height: 200px;
+  background-color: #BCDEDE;
+  border: 1px solid;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+#part3 p{
+  text-align: center;
+}
+/* part-2 & part-3 */
+
+/* part-4 overflow */
+#overflow_scroll h1{
+  text-align: center;
+  margin-top: 20px;
+}
+#overflow_scroll #overflow{
+  width: 400px;
+  height: 400px;
+  background-color: #BCDEDE;
+  overflow-y: scroll;
+  margin: auto;
+  padding: 15px;
+  text-align: justify;
+} 
+/* part-4 */
